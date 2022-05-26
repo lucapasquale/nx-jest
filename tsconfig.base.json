@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-jest/example": ["packages/example/src/index.ts"],
+      "@nx-jest/jest-utils": ["packages/jest-utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
